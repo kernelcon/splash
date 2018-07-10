@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from './kernelcon_k_w.png';
+import logo from './kernelcon_w_trans.png';
 import './App.scss';
 import Button from './components/Button/Button';
 import Modal from './components/Modal/Modal';
@@ -27,12 +27,12 @@ class App extends Component {
     return (
       <div className='App'>
         <div className='container'>
+          <img src={logo} className='App-logo' alt="logo" height="150"/>
           <h1>
-            April 2019
+            Coming April 2019
           </h1>
-          <img src={logo} className='App-logo' alt="logo"/>
           <div className='sign-up-btn'>
-            <Button onClick={this.toggleModal} href="#" title="Get Updates" />
+            <Button onClick={this.toggleModal} href="#" title="Keep Me Updated" />
           </div>
           <Modal show={this.state.isOpen}
             onClose={this.toggleModal}
@@ -52,7 +52,7 @@ class App extends Component {
               </iframe>
           </Modal>
           <h2>
-            The midwest's premier information security conference.
+            Omaha’s first fully-featured, community-driven information security conference.
           </h2>
         </div>
       </div>
