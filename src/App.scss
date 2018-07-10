@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Forum|Jura:300,400,500,700|Montserrat|Roboto:100,300,500,700,900');
+
+.App {
+  text-align: center;
+  align-items: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+
+  h1 {
+    font-size: 90px;
+    font-weight: 500;
+  }
+  h2 {
+    font-size: 40px;
+    font-weight: 300;
+  }
+  img {
+    /*margin-left: 10px;*/
+  }
+  .sign-up-btn {
+    width: 220px;
+    margin-left: -15px;
+  }
+}
+
+/*
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+}
+*/
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+html, body {  
+  background-color: #222;
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  /*font-family: 'Jura', 'Montserrat', sans-serif;*/
+}
+

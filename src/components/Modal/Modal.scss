@@ -1,0 +1,49 @@
+@import '../../static/styles/base';
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.75);
+  padding: 150px;
+}
+
+.modal-container {
+  background-color: #fff;
+  max-width: 560px;
+  min-height: 300px;
+  margin: 0 auto;
+  padding: 0px;
+  overflow: hidden;
+
+  .modal-header {
+    border-top: 6px solid $btn;
+    border-bottom: 1px solid #ccc;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eee;
+    padding: 0px 20px;
+    position: relative;
+  }
+
+  .modal-title {
+    color: #292828;
+    font-family: 'Jura';
+    font-size: 18px;
+  }
+
+  .modal-close {
+    color: #aaa;
+
+    &:hover {
+      cursor: pointer;
+      color: #111;
+    }
+  }
+
+}
