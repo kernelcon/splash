@@ -42,11 +42,10 @@ class App extends Component {
             width='500'>
               <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScBplS_8WifTAZMQJ802Djd05wEm9xywlwOWY963tplDdZz9g/viewform?embedded=true"
                 title="sign-up-form"
-                width="560"
-                height="580"
                 frameBorder="0"
                 marginHeight="0"
                 marginWidth="0"
+                className='google-form'
                 style={{'marginLeft': '-30px'}}>
                 Loading...
               </iframe>

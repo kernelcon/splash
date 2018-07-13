@@ -28,7 +28,7 @@ class Modal extends Component {
 
     return (
       <div className='backdrop'>
-        <div className='modal-container' style={{'height': `${this.props.height}px`, 'width': `${this.props.width}px`}}>
+        <div className='modal-container'>
           <div className='modal-header'>
             <div className='modal-title'>
               {this.props.title}

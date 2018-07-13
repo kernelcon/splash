@@ -20,7 +20,7 @@
 }
 
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) {
   .container {
     max-width: 260px;
   }
@@ -32,6 +32,18 @@
   }
   .sub-text {
     font-size: 16px;
+  }
+  .backdrop {
+    padding: 10vh 5px;
+  }
+  .modal-container {
+    height: 435px;
+    width: 300px;
+  }
+  .google-form {
+    height: 580px;
+    width: 370px; 
+    margin-top:10px;
   }
 }
 @media screen and (min-width: 380px) {
@@ -47,6 +59,18 @@
   .sub-text {
     font-size: 16px;
   }
+  .backdrop {
+    padding: 10vh 5px;
+  }
+  .modal-container {
+    height: 435px;
+    width: 330px;
+  }
+  .google-form {
+    height: 580px;
+    width: 395px; 
+    margin-top:10px;
+  }
 }
 @media screen and (min-width: 420px) {
   .container {
@@ -60,6 +84,18 @@
   }
   .sub-text {
     font-size: 18px;
+  }
+  .backdrop {
+    padding: 10vh 5px;
+  }
+  .modal-container {
+    height: 435px;
+    width: 360px;
+  }
+  .google-form {
+    height: 580px;
+    width: 425px; 
+    margin-top:10px;
   }
 }
 @media screen and (min-width: 500px) {
@@ -75,6 +111,18 @@
   .sub-text {
     font-size: 18px;
   }
+  .backdrop {
+    padding: 10vh 5px;
+  }
+  .modal-container {
+    height: 435px;
+    width: 400px;
+  }
+  .google-form {
+    height: 580px;
+    width: 465px; 
+    margin-top:10px;
+  }
 }
 @media screen and (min-width: 768px) {
   .container {
@@ -88,6 +136,18 @@
   }
   .sub-text {
     font-size: 24px;
+  }
+  .backdrop {
+    padding: 150px;
+  }
+  .modal-container {
+    height: 420px;
+    width: 500px;
+  }
+  .google-form {
+    height: 580px;
+    width: 560px; 
+    margin-top:0px;
   }
 }
 @media screen and (min-width: 992px) {
@@ -103,6 +163,18 @@
   .sub-text {
     font-size: 30px;
   }
+  .backdrop {
+    padding: 150px;
+  }
+  .modal-container {
+    height: 420px;
+    width: 500px;
+  }
+  .google-form {
+    height: 580px;
+    width: 560px; 
+    margin-top:0px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .container {
@@ -116,6 +188,18 @@
   }
   .sub-text {
     font-size: 30px;
+  }
+  .backdrop {
+    padding: 150px;
+  }
+  .modal-container {
+    height: 420px;
+    width: 500px;
+  }
+  .google-form {
+    height: 580px;
+    width: 560px; 
+    margin-top:0px;
   }
 }
 
