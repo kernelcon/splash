@@ -1,3 +1,4 @@
+
 .container {
   padding-right: 15px;
   padding-left: 15px;
@@ -10,22 +11,112 @@
   justify-content: space-around;
 }
 
-@media (min-width: 768px) {
+.coming-text {
+  font-weight: 500;
+}
+
+.sub-text {
+  font-weight: 300;
+}
+
+
+@media screen and (max-width: 320px) {
   .container {
-    width: 750px;
+    max-width: 260px;
+  }
+  img.App-logo {
+    height: 60px;
+  }
+  .coming-text {
+    font-size: 40px;
+  }
+  .sub-text {
+    font-size: 16px;
   }
 }
-@media (min-width: 992px) {
+@media screen and (min-width: 380px) {
   .container {
-    width: 970px;
+    max-width: 340px;
+  }
+  img.App-logo {
+    height: 60px;
+  }
+  .coming-text {
+    font-size: 40px;
+  }
+  .sub-text {
+    font-size: 16px;
   }
 }
-@media (min-width: 1200px) {
+@media screen and (min-width: 420px) {
   .container {
-    width: 1170px;
+    max-width: 380px;
+  }
+  img.App-logo {
+    height: 70px;
+  }
+  .coming-text {
+    font-size: 40px;
+  }
+  .sub-text {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 500px) {
+  .container {
+    max-width: 480px;
+  }
+  img.App-logo {
+    height: 80px;
+  }
+  .coming-text {
+    font-size: 40px;
+  }
+  .sub-text {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 750px;
+  }
+  img.App-logo {
+    height: 100px;
+  }
+  .coming-text {
+    font-size: 50px;
+  }
+  .sub-text {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .container {
+    max-width: 970px;
+  }
+  img.App-logo {
+    height: 150px;
+  }
+  .coming-text {
+    font-size: 60px;
+  }
+  .sub-text {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+  img.App-logo {
+    height: 150px;
+  }
+  .coming-text {
+    font-size: 60px;
+  }
+  .sub-text {
+    font-size: 30px;
   }
 }
 
 /*$btn:  #73739e;*/
-
-$btn:  #4285f4;

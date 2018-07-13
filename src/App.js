@@ -28,7 +28,7 @@ class App extends Component {
       <div className='App'>
         <div className='container'>
           <img src={logo} className='App-logo' alt="logo" height="150"/>
-          <h1>
+          <h1 className='coming-text'>
             Coming April 2019
           </h1>
           <div className='sign-up-btn'>
@@ -51,7 +51,7 @@ class App extends Component {
                 Loading...
               </iframe>
           </Modal>
-          <h2>
+          <h2 className='sub-text'>
             Omaha’s first fully-featured, community-driven information security conference.
           </h2>
         </div>

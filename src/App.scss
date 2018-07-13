@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Forum|Jura:300,400,500,700|Montserrat|Roboto:100,300,500,700,900');
+@import './src/static/styles/base';
 
 .App {
   text-align: center;
@@ -8,14 +9,6 @@
   flex-direction: column;
   width: 100vw;
 
-  h1 {
-    font-size: 80px;
-    font-weight: 500;
-  }
-  h2 {
-    font-size: 30px;
-    font-weight: 300;
-  }
   img {
     /*margin-left: 10px;*/
   }
