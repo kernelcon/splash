@@ -22,7 +22,7 @@ class App extends Component {
   render() {
     const modalContentStyle = {
       padding: '0px',
-      marginTop: '-170px'
+      marginTop: '-100px'
     }
     return (
       <div className='App'>
